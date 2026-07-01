@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for contacting Red Clay Marketing. We'll be in touch soon.">
+    <title>Message Received | Red Clay Marketing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'clay-red': '#8B1818',
+                        'clay-black': '#000000',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                },
+            },
+        };
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-clay-black font-sans antialiased min-h-screen flex flex-col">
+
+    <header class="border-b border-gray-100 bg-white/95 backdrop-blur-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+            <div class="flex h-20 items-center justify-center sm:justify-start">
+                <a href="index.html" class="flex-shrink-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-clay-red rounded">
+                    <img class="h-14 w-auto" src="assets/images/logov2transparent.png" alt="Red Clay Marketing">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="relative flex-grow flex items-center">
+        <div class="absolute inset-0 -z-10 bg-gradient-to-b from-gray-50 to-white pointer-events-none" aria-hidden="true"></div>
+        <section class="w-full py-16 sm:py-24">
+
+            <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="inline-flex items-center justify-center h-20 w-20 rounded-full bg-clay-red/10 text-clay-red mb-8">
+                    <svg class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                    </svg>
+                </div>
+
+                <p class="inline-flex items-center gap-2 rounded-full border border-clay-red/20 bg-clay-red/5 px-4 py-1.5 text-sm font-semibold text-clay-red mb-6">
+                    Message sent
+                </p>
+
+                <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-clay-black leading-tight">
+                    Thanks for reaching out.
+                </h1>
+
+                <p class="mt-5 text-lg text-gray-600 leading-relaxed">
+                    Your project details are on their way to our team. We typically reply within one business day with next steps and a clear quote.
+                </p>
+
+                <div class="w-16 h-1 bg-clay-red mx-auto mt-8 rounded-full"></div>
+
+                <p class="mt-8 text-sm text-gray-500">
+                    Didn't mean to submit? No worries — just send another note from the homepage or email us at
+                    <a href="mailto:andrew@redclay.marketing" class="font-semibold text-clay-red hover:underline">andrew@redclay.marketing</a>.
+                </p>
+
+                <a href="index.html" class="mt-10 inline-flex items-center justify-center gap-2 rounded-lg bg-clay-red px-8 py-4 text-base font-bold text-white shadow-lg shadow-clay-red/25 hover:bg-[#6f1313] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-clay-red focus-visible:ring-offset-2">
+                    <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                    </svg>
+                    Back to Homepage
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 py-10 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <a href="index.html" class="flex-shrink-0">
+                <img class="h-10 w-auto opacity-90 hover:opacity-100 transition-opacity" src="assets/images/logov2transparent.png" alt="Red Clay Marketing">
+            </a>
+            <p class="text-sm text-gray-500 text-center md:text-right">
+                &copy; 2026 Red Clay Marketing. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
